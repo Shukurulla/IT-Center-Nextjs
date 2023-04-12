@@ -1,0 +1,51 @@
+.header {
+  background-color: #eef1ff;
+}
+.nav {
+  padding: 15px 0;
+
+  display: flex;
+  gap: 60px;
+  justify-content: space-between;
+}
+.header__navigation {
+  display: flex;
+  align-items: center;
+}
+.nav__lists {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 70px;
+}
+.nav__lists li {
+  list-style: none;
+}
+.nav__list {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  color: #000;
+}
+
+.active {
+  color: #7274ff;
+}
+
+.container {
+  margin: auto;
+  width: 70%;
+}
+
+.component__button {
+  padding: 15px 45px;
+  background-color: #7274ff;
+  color: #eef1ff;
+  border-radius: 45pc;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  cursor: pointer;
+}
