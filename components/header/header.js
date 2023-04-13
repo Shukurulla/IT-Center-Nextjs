@@ -22,7 +22,7 @@ const Header = () => {
             <div className={Style.header__navigation}>
               <ul className={Style.nav__lists}>
                 {navItems.map((item, idx) => (
-                  <li className={Style.nav__list__item}>
+                  <li className={Style.nav__list__item} key={item.label}>
                     <Link
                       className={`${
                         state == item.label ? Style.active : null

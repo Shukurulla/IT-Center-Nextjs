@@ -31,6 +31,13 @@ const Home = () => {
           </div>
         </Container>
       </main>
+      <section>
+        <Container>
+          <div className={style.section}>
+            <h1 className={style.section__title}>Ommabob kurslar</h1>
+          </div>
+        </Container>
+      </section>
     </div>
   );
 };
