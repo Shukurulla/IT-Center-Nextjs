@@ -27,7 +27,7 @@ const Home = () => {
                 identifier.
               </p>
             </div>
-            <Button>Kurslarni ko’rish</Button>
+            <Button link={"/courses"}>Kurslarni ko’rish</Button>
           </div>
         </Container>
       </main>

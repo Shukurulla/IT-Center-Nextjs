@@ -24,7 +24,7 @@
 }
 .nav__list {
   text-decoration: none;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 600;
   color: #000;
 }
@@ -48,4 +48,25 @@
   font-weight: 600;
   line-height: 20px;
   cursor: pointer;
+  text-decoration: none;
+}
+.footer__section {
+  background-color: #eef1ff;
+}
+.footer__navigate {
+  display: grid;
+  grid-template-columns: 30% 35% 35%;
+}
+.footer__header {
+  margin-bottom: 30px;
+}
+
+.footer__list__item {
+  list-style: none;
+  margin-top: 10px;
+}
+.footer__list__item a {
+  text-decoration: none;
+  color: #7274ff;
+  font-weight: 600;
 }
